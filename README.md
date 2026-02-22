@@ -72,11 +72,27 @@ DiskCleaner/
 - Windows 10 / 11（64-bit）
 - 无需安装运行时环境
 
-## 关于
+## 关于作者
 
-- 视频号 / 公众号：**小宁静致远**
-- 知识星球：**新人类**
-- 个人网站：[jinLab.com](https://jinLab.com)
+| | |
+|---|---|
+| 视频号 | **小宁静致远** |
+| 公众号 | **小宁静致远** |
+| 知识星球 | **新人类** |
+| 个人微信 | **mosjin**（暗号: 新人类） |
+| 个人网站 | [jinLab.com](https://jinLab.com) |
+
+## 新人类体验群
+
+扫码加入体验群，获取最新版本、反馈问题、交流使用心得：
+
+<img src="docs/qr_tiyanqun.png" width="300" />
+
+## 赞赏
+
+如果 DiskCleaner 帮到了你，欢迎赞赏支持：
+
+<img src="docs/qr_donate.png" width="250" />
 
 ## License
 
