@@ -1,0 +1,13 @@
+# Everything runtime database
+Everything.db
+
+# User config (not the example)
+custom_targets.json
+!custom_targets.example.json
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+Desktop.ini

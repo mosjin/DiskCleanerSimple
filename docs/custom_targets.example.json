@@ -1,0 +1,74 @@
+{
+  "targets": [
+    {
+      "name": "My App Cache",
+      "desc": "清空缓存目录内容，保留目录本身",
+      "paths": ["D:\\MyApp\\cache", "D:\\MyApp\\temp"],
+      "mode": "contents",
+      "safety": "safe"
+    },
+    {
+      "name": "Old Logs",
+      "desc": "日志文件（删除前请确认）",
+      "paths": ["%USERPROFILE%\\logs"],
+      "mode": "contents",
+      "safety": "review"
+    },
+    {
+      "name": "Build Artifacts",
+      "desc": "删除整个构建输出目录",
+      "paths": ["D:\\projects\\build_output"],
+      "mode": "directory",
+      "safety": "safe"
+    },
+    {
+      "name": "node_modules",
+      "desc": "Glob 模式：在指定根目录下递归匹配所有 node_modules",
+      "paths": ["node_modules", "D:\\projects"],
+      "mode": "glob",
+      "safety": "review"
+    },
+    {
+      "name": "Gradle Cache",
+      "desc": "Android/Java Gradle 构建缓存",
+      "paths": ["%USERPROFILE%\\.gradle\\caches"],
+      "mode": "contents",
+      "safety": "safe"
+    },
+    {
+      "name": "Maven Repository",
+      "desc": "Maven 本地仓库（删除后需重新下载依赖）",
+      "paths": ["%USERPROFILE%\\.m2\\repository"],
+      "mode": "contents",
+      "safety": "review"
+    },
+    {
+      "name": "Docker Build Cache",
+      "desc": "Docker Desktop 构建缓存",
+      "paths": ["%LOCALAPPDATA%\\Docker\\wsl\\disk"],
+      "mode": "contents",
+      "safety": "review"
+    },
+    {
+      "name": "Unity Shader Cache",
+      "desc": "Unity 编辑器着色器缓存",
+      "paths": ["%LOCALAPPDATA%\\Unity\\cache\\shaders"],
+      "mode": "contents",
+      "safety": "safe"
+    },
+    {
+      "name": "Cargo Target (All Projects)",
+      "desc": "Glob 模式：匹配所有 Rust 项目的 target 目录",
+      "paths": ["target", "D:\\projects"],
+      "mode": "glob",
+      "safety": "review"
+    },
+    {
+      "name": "WeChat Files",
+      "desc": "微信 PC 缓存文件（图片/视频缓存，不含聊天记录）",
+      "paths": ["%APPDATA%\\Tencent\\WeChat\\XPlugin\\Plugins"],
+      "mode": "contents",
+      "safety": "review"
+    }
+  ]
+}
