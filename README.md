@@ -77,7 +77,7 @@ DiskCleaner/
 | | |
 |---|---|
 | 视频号 | **小宁静致远** |
-| 公众号 | **小宁静致远** |
+| 公众号 | [**小宁静致远**](https://mp.weixin.qq.com/s/VUZptCjXVfCmaocEQTOLAw) |
 | 知识星球 | **新人类** |
 | 个人微信 | **mosjin**（暗号: 新人类） |
 | 个人网站 | [jinLab.com](https://jinLab.com) |
