@@ -2,6 +2,8 @@
 
 Windows 磁盘清理工具，智能扫描并清理系统垃圾文件。单文件 5MB，无需安装，开箱即用。
 
+<img src="docs/screenshot.png" width="600" alt="DiskCleaner 界面截图" />
+
 ## 功能特点
 
 - **116+ 清理目标**：覆盖系统临时文件、浏览器缓存、包管理器、IDE 缓存、通讯软件等
@@ -15,7 +17,7 @@ Windows 磁盘清理工具，智能扫描并清理系统垃圾文件。单文件
 
 ### 便携版（推荐）
 
-1. 下载最新 [Release](https://github.com/mosjin/DiskCleanerSimple/releases) 或 `release/v0.0.1/` 目录
+1. 下载最新 [Release](https://github.com/mosjin/DiskCleanerSimple/releases)
 2. 双击 `Start.bat`（自动启动 Everything + DiskCleaner）
 3. 选择要清理的项目 → 点击「清理」
 
