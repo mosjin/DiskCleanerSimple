@@ -1,9 +1,9 @@
 @echo off
-chcp 65001 >nul 2>&1
+@chcp 65001 >nul 2>nul
 
 echo.
 echo   ============================================
-echo     DiskCleaner v0.0.1 - Portable Edition
+echo     DiskCleaner v0.0.3 - Portable Edition
 echo   ============================================
 echo.
 
