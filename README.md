@@ -1,6 +1,6 @@
 # DiskCleaner
 
-Windows 磁盘清理工具，智能扫描并清理系统垃圾文件。单文件 5MB，无需安装，开箱即用。
+跨平台磁盘清理工具（Windows + Android），智能扫描并清理系统垃圾文件。Windows 版单文件 5MB，开箱即用。
 
 <img src="docs/screenshot.png" width="600" alt="DiskCleaner 界面截图" />
 
@@ -12,6 +12,7 @@ Windows 磁盘清理工具，智能扫描并清理系统垃圾文件。单文件
 - **磁盘缓存**：重启应用秒开，无需重新扫描
 - **自定义目标**：支持外置 JSON 配置文件扩展清理规则
 - **单实例保护**：重复打开自动激活已有窗口
+- **跨平台支持**：原生支持 Windows (x86_64) 与 Android (arm64-v8a)
 
 ## 快速开始
 
@@ -20,6 +21,14 @@ Windows 磁盘清理工具，智能扫描并清理系统垃圾文件。单文件
 1. 下载最新 [Release](https://github.com/mosjin/DiskCleanerSimple/releases)
 2. 双击 `Start.bat`（自动启动 Everything + DiskCleaner）
 3. 选择要清理的项目 → 点击「清理」
+
+### Android 版
+### Android 版
+
+1. 下载最新 [v0.0.3 APK](https://github.com/mosjin/DiskCleanerSimple/releases/download/v0.0.3/DiskCleaner-v0.0.3.apk)
+2. 安装到 Android 手机
+3. 启动并授予「所有文件访问」权限
+4. 开始扫描与重复文件检测
 
 ### 手动运行
 
@@ -71,8 +80,8 @@ DiskCleaner/
 
 ## 系统要求
 
-- Windows 10 / 11（64-bit）
-- 无需安装运行时环境
+- **Windows**: Windows 10 / 11（64-bit）
+- **Android**: Android 8.0+ (API 26+), 推荐 ARM64 设备
 
 ## 关于作者
 
